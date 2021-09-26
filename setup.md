@@ -24,6 +24,8 @@
 
 4. Dupa instalare, deschidem un terminal ( cmd, git bash ) si rulam 'git --version'
 
+5. Ca sa evitam problemele legate de case sensitive rulati 'git config --global core.ignorecase false' in terminal
+
 ## Bonus extensi folosite de mine:
  1. GitLens in vscode
  2. Bracket Pair Colorizer in vscode
