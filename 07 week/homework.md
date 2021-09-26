@@ -4,7 +4,7 @@ Acesta tema va porni de la ce sa facut la workshop
 
 Tasks:
 
-0. Terminat cerintele din 
+0. Terminat cerintele de la workshop 
 1. Adaugati un button plus functionalitate pentru start timer
 2. Adaugati un button plus functionalitate pentru stop timer
 3. Adaugati un button plus functionalitate pentru reset timer

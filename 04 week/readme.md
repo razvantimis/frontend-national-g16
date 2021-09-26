@@ -13,4 +13,6 @@
 7. Expression - ternary operator - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
 6. Function basic
 
+# 02. Workshop lista cumparaturi
+
 
