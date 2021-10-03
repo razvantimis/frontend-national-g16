@@ -1,4 +1,3 @@
-
 ## JS Advanced
 
 1. Function
