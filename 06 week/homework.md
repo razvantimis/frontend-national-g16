@@ -1,7 +1,7 @@
 # The Player
 
 1.  Definiti un container de dimensiuni fixe ( de exemplu height: 400, width: 400) unde puteti playerul - il numim gameContainer
-2.  Player sa poate misca in toate directile
+2.  Player sa poate misca in toate directile ( incepeti doar cu o directie )
 3.  Un player nu poate iesi inafara gameContainer ( de la punctul 1)
 
 ##  Optional 
