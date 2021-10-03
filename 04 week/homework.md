@@ -16,6 +16,6 @@ Using control structures (if, for, while), do the following::
 
            1 0 1 0
 
-## Modul de lucru - individual
+## Modul de lucru
 Un singur fisier js cu codul
-Ramane la fel, pull request cu codul scris si asteptati approve iar link de la PR se pune pe plaforma
+Pull request cu codul scris si asteptati approve iar link de la PR se pune pe plaforma
