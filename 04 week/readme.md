@@ -16,3 +16,8 @@
 # 02. Workshop lista cumparaturi
 
 
+## Links:
+
+1. Concepts: https://www.youtube.com/watch?v=xbFoZhC_wdY ( va rog recomand! Se explica variabile, if, loops, functions )
+2. CompTIA IT Fundamentals+: https://www.youtube.com/watch?v=Us4LwTjWFaY ( detalii despre cum functioneaza in limbaj de programare )
+
