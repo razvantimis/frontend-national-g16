@@ -6,6 +6,8 @@
 
 4. Instalarea git tool.
 
+5. Cont https://codesandbox.io/
+
 ## Cum ne facem un cont de github?
 
 1. Intra pe https://github.com/
