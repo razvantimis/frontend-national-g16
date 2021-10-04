@@ -15,7 +15,10 @@
 3. `git pull` - aduce ce avem remote la noi local
 
 
-Config 
+# Config 
 
+1. Username and email
 Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
 Set your email address: git config --global user.email "MY_NAME@example.com"
+
+2. Add ssh https://github.com/settings/keys - docs https://docs.github.com/en/authentication/connecting-to-github-with-ssh
