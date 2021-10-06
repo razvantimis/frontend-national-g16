@@ -30,3 +30,13 @@ console.log(produs.pret) // prin . accesam cheia "pret"
 // atribuire
 
 produs.pret = 30 // am schimba valoare din 24 in 30
+
+// adaugam cheia cantitate, nu exista cheia
+
+produs.cantitate = 10;
+
+// in mod dymanic accesare
+
+var key = "newKey" // un string simplu
+
+produs[key] = 40

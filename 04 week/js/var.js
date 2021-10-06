@@ -1,6 +1,6 @@
 
 // Console.log afiseaza un text
-/* test */ var x= 10;
+/* test */ var x = 10;
 console.log("Hello")
 
 
@@ -14,7 +14,12 @@ var y = 10;
 console.log(x + y) // este o expresie
 console.log(x - y);
 console.log(x * y); // "*"" este imultire
-console.log(x / y); // "/" este imultire
+console.log(x / y); // "/" este impartire
+console.log(x % y); // modul, ne da restul impartiri
+console.log(10 % 2 == 0); // daca e nr par
+
+
+
 
 console.log(x * y + (10 - 300 * y)) // ca sa schimbam ordinea operatilor folosim paranteza
 
