@@ -9,9 +9,7 @@
     3. operatii logice
 4. Arrays and Objects - structuri compuse
 5. Flow control: if , for, switch, while, do {} while()
-7. Expression - ternary operator - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
-6. Function basic
-7. == vs ===
+
 
 # 02. Workshop lista cumparaturi
 
@@ -20,4 +18,5 @@
 
 1. Concepts: https://www.youtube.com/watch?v=xbFoZhC_wdY ( va rog recomand! Se explica variabile, if, loops, functions )
 2. CompTIA IT Fundamentals+: https://www.youtube.com/watch?v=Us4LwTjWFaY ( detalii despre cum functioneaza in limbaj de programare )
+3. https://tutoriale-pe.net/algoritmi-elementari-informatica-liceu/
 
