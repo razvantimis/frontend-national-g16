@@ -10,7 +10,7 @@
 4. CSS manipulation
 5. Events
 
-# 2. Workshop Todo List
+# 2. Workshop Todo List - https://codesandbox.io/ ( sa va faceti login cu github )
 
 
 ## Links:
