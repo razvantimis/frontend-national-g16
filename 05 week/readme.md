@@ -10,7 +10,7 @@
 4. CSS manipulation
 5. Events
 
-# 2. Workshop BMI
+# 2. Workshop Todo List
 
 
 ## Links:
