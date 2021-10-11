@@ -18,14 +18,16 @@ function f(x) {
 }
 console.log("f(2) = ", f(2))
 
+var result = f(10);
+
 
 // afiseaza un mesaj sau erroare
 // o functie ne ajuta sa refolosim codul
-function log(type, msg) {
-  console.log("type=", type);
+function log(razvanA, msg) {
+  console.log("type=", razvanA);
   console.log("msg=", msg);
 
-  switch (type) {
+  switch (razvanA) {
     case "debug":
       console.log("[debug]:", msg)
       break;
