@@ -23,11 +23,12 @@ var result = f(10);
 
 // afiseaza un mesaj sau erroare
 // o functie ne ajuta sa refolosim codul
-function log(razvanA, msg) {
-  console.log("type=", razvanA);
+// parametru type poate avea orice nume dorim
+function log(type, msg) {
+  console.log("type=", type);
   console.log("msg=", msg);
 
-  switch (razvanA) {
+  switch (type) {
     case "debug":
       console.log("[debug]:", msg)
       break;
