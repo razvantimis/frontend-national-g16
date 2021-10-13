@@ -1,7 +1,6 @@
 # 0. Recap js basic
 7. Expression - ternary operator - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
 6. Function basic
-7. == vs ===
 
 # 1. DOM 
 1. Ce este DOM?
