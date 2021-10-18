@@ -42,8 +42,8 @@ console.log(myArray);
 
 // caz cu object
 function addNewKey(object) {
-  object.razvanKey = 10;
-  object.key1 = 12;
+  object.razvanKey = 10; // adaugam key nou
+  object.key1 = 12; // update la key1
 }
 
 var obj1 = {
