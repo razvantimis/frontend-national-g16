@@ -34,6 +34,7 @@ function sumArray(array) {
   return sum;
 
 }
+
 var myArray = [1, 2, 3, 4, 5, 6, 0, 0];
 var total = sumArray(myArray)
 console.log(total)
