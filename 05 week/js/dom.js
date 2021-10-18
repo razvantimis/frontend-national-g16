@@ -92,6 +92,15 @@ document.addEventListener('keydown', function(event){
 })
 
 
+// acelasi lucru
+function onKeyDown(event){
+  console.log('am pasat ceva', event.key)
+  if(event.key == "Enter"){
+    console.log('logica pentru enter key')
+  }
+}
+document.addEventListener('keydown', onKeyDown)
+
 
 
 
