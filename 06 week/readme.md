@@ -15,7 +15,8 @@
 2. Difference between let, const and var: https://www.youtube.com/watch?v=dzEieWaOJE0
 3. Scoping: https://www.youtube.com/watch?v=aK_nuUAdr8E
 4. Advance topic about hoisting, scope, closure: https://www.youtube.com/watch?v=Nt-qa_LlUH0
-
+5. https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
 1 - 1
 2 - 1
 3 - f(1) + f(2) = 1 + 1
