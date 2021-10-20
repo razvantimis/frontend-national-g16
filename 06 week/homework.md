@@ -11,10 +11,10 @@
   // folositi position absolute
 })
  <div id="gameContainer"> 
-   <div id="player"></div>
+   <div id="player"></div> // folositi position absolut si schimbat top si left
 
 </div>
-3. Este in gameContainer bazat pe 
+3. Folositi if-uri
 
 ## Optional
 
