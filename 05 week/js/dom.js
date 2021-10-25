@@ -78,24 +78,24 @@ var btnEmail = document.querySelector("#btnEmail");
 console.log(btnEmail)
 // param1: type - https://developer.mozilla.org/en-US/docs/Web/Events
 // param 2: functia care executa codul daca se da click
-btnEmail.addEventListener("click", function(masina){ // nu conteaza numele
+btnEmail.addEventListener("click", function (masina) { // nu conteaza numele
   console.log('test', masina)
 })
 
 // 1. user apasa o tasta de la tastatura
 
-document.addEventListener('keydown', function(event){
+document.addEventListener('keydown', function (event) {
   console.log('am pasat ceva', event.key)
-  if(event.key == "Enter"){
+  if (event.key == "Enter") {
     console.log('logica pentru enter key')
   }
 })
 
 
 // acelasi lucru
-function onKeyDown(event){
+function onKeyDown(event) {
   console.log('am pasat ceva', event.key)
-  if(event.key == "Enter"){
+  if (event.key == "Enter") {
     console.log('logica pentru enter key')
   }
 }
