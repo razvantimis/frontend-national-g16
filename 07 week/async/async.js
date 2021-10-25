@@ -1,5 +1,6 @@
 // Thread - locul unde se executa codul
-// Javascript - este single thread
+// Javascript - este single thread -
+// Non blocking operation
 // Async din javascript ne ajuta ca sa nu blocam interfaca cu utilizatorul
 
 // Exemplu: Request catre server, stim in cat timp primim de la server raspunsul? Noi nu stim in cat timp va raspunde
@@ -7,12 +8,13 @@
 console.log('1. incepe requestul')
 // facem o intentie de request
 // functia fetch face requestul pe un link
-fetch('https://jsonplaceholder.typicode.com/todos').then(
-  function (response) { // se ruleaza dupa ce vine raspunsul de la server
-    // console.log(response)
-    console.log('2. a venit raspunsul')
-  } // functia se va executa asyncron, adica nu astepta dupa raspunsul de la server
-)
+fetch('https://jsonplaceholder.typicode.com/todos')
+  .then(
+    function (response) { // se ruleaza dupa ce vine raspunsul de la server
+      // console.log(response)
+      console.log('2. a venit raspunsul')
+    } // functia se va executa asyncron, adica nu astepta dupa raspunsul de la server
+  )
 console.log('3. se termina requestul')
 // cod nostru
 
