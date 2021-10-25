@@ -7,7 +7,8 @@
 2. Sync vs Async
 3. Event Loop - https://www.youtube.com/watch?v=8aGhZQkoFbQ
 4. Ajax - fetch - https://fakestoreapi.com / https://jsonplaceholder.typicode.com/
-4. Workshop Digital clock
+5. Callbacks hell - Promise
+6. Workshop Digital clock
 
 ## Links
 
