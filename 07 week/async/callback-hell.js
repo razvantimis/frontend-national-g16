@@ -1,7 +1,22 @@
-// Callback hell
+// Callback hell - http://callbackhell.com/
 
 // Cum scoatem o valoare dintr-un cod async?
 
+// prin referinta
+function doWork1(obj) {
+  setTimeout(function () { // avem cod async
+    const result = 32;
+    // ce putem aici?
+    obj.result = result;
+  }, 1000) // async care ruleaza dupa 1sec
+}
+var obj = {}
+doWork1(obj)
+setTimeout(() => {
+  console.log(obj)
+}, 1001)
+
+// prin callback
 function doWork1(callBackSucces) {
   setTimeout(function () { // avem cod async
     /// face ceva work - am facut ceva calcule complicate
