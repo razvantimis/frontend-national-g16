@@ -2,7 +2,6 @@
 // Mai multe timere care merg independent in acelasi timp
 // Fara variabile globale
 
-
 function createDigitalTimer(startSeconds) {
   // initializare
   const timerHTML = document.createElement('div');
@@ -20,8 +19,6 @@ function createDigitalTimer(startSeconds) {
 
     updateTimeHtml(timerHTML, timerValues.seconds, timerValues.minutes, timerValues.hours);
   }, 1000);
-
-
 
   return timerHTML;
 }
