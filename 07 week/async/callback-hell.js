@@ -12,8 +12,9 @@ function doWork1(obj) {
 }
 var obj = {}
 doWork1(obj)
+console.log(obj); // aici avem obj.result? Nu avem, pentru inca nu sa executat
 setTimeout(() => {
-  console.log(obj)
+  console.log(obj) // aici avem obj.result? Il avem, 1s + 1 milisec
 }, 1001)
 
 // prin callback
