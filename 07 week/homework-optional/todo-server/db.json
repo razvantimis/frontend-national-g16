@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "checked": true,
+      "text": "Fac mancare",
+      "id": "1586591053377"
+    },
+    {
+      "checked": true,
+      "text": "Fac cumparaturi",
+      "id": "1586591058449"
+    },
+    {
+      "text": "asdsa",
+      "checked": false,
+      "id": "1625306464391"
+    }
+  ]
+}
