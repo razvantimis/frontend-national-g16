@@ -70,7 +70,7 @@ let timeHTML = document.getElementById("time");
  * @param {number} minutes
  * @param {number} hours
  */
-function updateTimeHtml(seconds, minutes, hours) {
+function updateTimeHtmlV2(seconds, minutes, hours) {
   // 00:00:00
   // timeHTML.innerText =
   //   formatTime(hours) + ":" + formatTime(minutes) + ":" + formatTime(seconds);
