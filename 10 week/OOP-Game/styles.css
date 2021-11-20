@@ -14,6 +14,7 @@ body {
 #game-scene {
   width: 1000px;
   height: 500px;
-  border: 1px solid black;
+  border: 1px solid grey;
   position: relative;
+  overflow: hidden;
 }

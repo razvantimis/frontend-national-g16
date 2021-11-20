@@ -17,8 +17,6 @@ console.log(car1.wheels);
 console.log(car1.moveForward);
 console.log(car1.moveForward());
 
-function addition() {}
-
 class Car {
   constructor(color, motor, wheels) {
     this.color = color;
