@@ -197,7 +197,7 @@ let gameLoop = setInterval(() => {
   if (collisionDetection(player, obstacleFactory.obstacles)) {
     clearInterval(gameLoop);
     alert("You hit an obstacle");
-    window.location = "/";
+    window.location.reload();
   }
 
   // we check every game loop if we need to destroy objects outside of the game scene
