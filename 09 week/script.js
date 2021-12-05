@@ -4,7 +4,7 @@ console.log("Week 9");
 getUsers();
 
 // update list every second
-setInterval(getUsers, 1000);
+// setInterval(getUsers, 1000);
 
 // get user data from server
 function getUsers() {
@@ -29,6 +29,7 @@ function renderUsers(data) {
 
 function renderListItem(userData) {
   const li = document.createElement("li");
+  li.classList.add("list-item");
   li.innerText = `${userData.last_name} ${userData.first_name}`;
   const ol = document.getElementById("entries");
   ol.appendChild(li);
