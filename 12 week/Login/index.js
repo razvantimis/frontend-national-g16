@@ -30,7 +30,7 @@ if (document.cookie) {
   console.log(cookieObj);
 
   // after find out the keys existed in the cookie we need to check if name or password is missing
-  if (!cookieObj.name || !cookieObj.password) {
+  if (!cookieObj.email || !cookieObj.password) {
     window.location = "/12%20week/Login/login.html";
   }
 }
@@ -39,7 +39,7 @@ if (document.cookie) {
 // a cookie is removed when it is expired, by setting an expiration date in the past we will remove a cookie
 document.getElementById("logout").addEventListener("click", () => {
   document.cookie = "password=123; ; Expires=Thu, 31 Oct 1990 07:28:00 GMT;";
-  document.cookie = "name=123; ; Expires=Thu, 31 Oct 1990 07:28:00 GMT;";
+  document.cookie = "email=123; ; Expires=Thu, 31 Oct 1990 07:28:00 GMT;";
 
   // after logout we can refresh the page
   window.location = "/12%20week/Login/index.html";

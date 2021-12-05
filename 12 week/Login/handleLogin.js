@@ -1,18 +1,18 @@
 console.log(document.cookie);
 
-const inputName = document.getElementById("name");
+const inputEmail = document.getElementById("email");
 const inputPassword = document.getElementById("password");
 
 const PASSWORD_CHECK = "123";
 
 document.getElementById("login").addEventListener("click", () => {
-  const name = inputName.value;
+  const email = inputEmail.value;
   const password = inputPassword.value;
 
-  if (name && password === PASSWORD_CHECK) {
+  if (email && password === PASSWORD_CHECK) {
     // for every new key in the cookie we need to use "document.cookie"
     // we can't set more then a cookie at a time
-    document.cookie = `name=${name}`;
+    document.cookie = `email=${email}`;
     document.cookie = `password=${password}`;
 
     // after successful login we can redirect the user to the home page
