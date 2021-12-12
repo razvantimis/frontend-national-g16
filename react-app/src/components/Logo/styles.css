@@ -1,0 +1,13 @@
+.logo {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 20px;
+  background: white;
+}
+
+.logo img {
+  height: 100%;
+  margin-left: 3px;
+}

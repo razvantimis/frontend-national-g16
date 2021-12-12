@@ -1,0 +1,6 @@
+.header {
+  height: 80px;
+  background: lightgray;
+  display: flex;
+  align-items: center;
+}
