@@ -1,0 +1,28 @@
+.to-do__add-item {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin: 20px 0px;
+}
+
+.to-do__add-item__field {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+  background: white;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-size: 24px;
+}
+
+.to-do__add-item__add-btn {
+  padding: 10px;
+  background: lightgray;
+  border: none;
+  color: yellow;
+  border-radius: 4px;
+  font-size: 24px;
+  width: 50px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}

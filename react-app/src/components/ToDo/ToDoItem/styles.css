@@ -1,0 +1,27 @@
+.to-do__item {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin: 20px 0px;
+}
+
+.to-do__item__label {
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+  background: white;
+  margin: 0;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.to-do__item__remove-btn {
+  padding: 10px;
+  background: lightgray;
+  border: none;
+  color: red;
+  border-radius: 4px;
+  font-size: 24px;
+  width: 50px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}

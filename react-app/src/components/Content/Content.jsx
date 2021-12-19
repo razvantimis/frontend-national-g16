@@ -1,4 +1,5 @@
 import { Counter } from "../Counter/Counter";
+import { ToDo } from "../ToDo/ToDo";
 import "./styles.css";
 
 export const Content = () => {
@@ -7,6 +8,7 @@ export const Content = () => {
       <Counter />
       {/* new Counter() */}
       <Counter />
+      <ToDo />
     </div>
   );
 };
