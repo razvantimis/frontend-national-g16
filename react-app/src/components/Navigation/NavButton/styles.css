@@ -1,18 +1,22 @@
 .nav-button {
-  width: 80px;
-  height: 40px;
+  width: 100px;
+  height: 30px;
   margin: 5px;
   border: none;
   border-radius: 4px;
   background: white;
   cursor: pointer;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .nav-button:hover {
   background: #f0efef;
 }
 
-.nav-button--active {
+.nav-button.nav-button--active {
   background: black;
   color: white;
 }

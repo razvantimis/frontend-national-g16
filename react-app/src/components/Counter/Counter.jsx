@@ -9,6 +9,10 @@ export class Counter extends React.Component {
     nrOfClicks: 0,
   };
 
+  componentDidMount() {
+    console.log("counter mounted");
+  }
+
   increaseNrOfClicks = () => {
     this.setState({
       nrOfClicks: this.state.nrOfClicks + 1,
@@ -16,6 +20,8 @@ export class Counter extends React.Component {
   };
 
   render() {
+    console.log("counter render");
+
     return (
       <div className="counter">
         <button onClick={this.increaseNrOfClicks}>Press Me</button>

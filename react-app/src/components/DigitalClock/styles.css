@@ -1,0 +1,5 @@
+.digital-clock {
+  display: flex;
+  font-size: 40px;
+  margin: 50px;
+}
