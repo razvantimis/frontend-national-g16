@@ -16,7 +16,7 @@ export class ToDo extends Component {
       .then((data) => {
         console.log(data);
         this.setState({
-          items: data,
+          items: data.list,
           loading: false,
         });
       });
@@ -42,7 +42,7 @@ export class ToDo extends Component {
             Accept: "application/json",
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(this.state.items),
+          body: JSON.stringify({ list: this.state.items }),
         });
       }
     );
@@ -60,7 +60,7 @@ export class ToDo extends Component {
             Accept: "application/json",
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(this.state.items),
+          body: JSON.stringify({ list: this.state.items }),
         });
       }
     );
