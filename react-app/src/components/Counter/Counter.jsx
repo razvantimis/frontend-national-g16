@@ -2,11 +2,8 @@ import React from "react";
 import "./styles.css";
 
 export class Counter extends React.Component {
-  // constructor() {
-  //  this.state = {nrOfClicks: 0,}
-  // }
   state = {
-    nrOfClicks: 0,
+    nrOfClicks: this.props.initialNrOfClicks || 0,
   };
 
   componentDidMount() {
@@ -24,7 +21,9 @@ export class Counter extends React.Component {
 
     return (
       <div className="counter">
-        <button onClick={this.increaseNrOfClicks}>Press Me</button>
+        <button onClick={this.increaseNrOfClicks}>
+          {this.props.buttonLabel || "Press Me"}
+        </button>
         <p>Number of clicks {this.state.nrOfClicks}</p>
       </div>
     );

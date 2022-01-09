@@ -22,6 +22,10 @@ export class ToDo extends Component {
       });
   }
 
+  componentWillUnmount() {
+    console.log("To Do Component will unmount");
+  }
+
   onInputChange = (event) => {
     console.log(event);
     this.setState({
