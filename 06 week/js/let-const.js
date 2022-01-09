@@ -9,38 +9,38 @@ let myName = "Razvan";
 function show() {
   let myName = "Alex"; // local in functie
 
-  if (true) { // block scope, 
+  if (true) {
+    // block scope,
     let myName = "Marius"; // myName este vizibila doar in if
 
     console.log(myName); // Marius
   }
   console.log(myName); // Alex
 }
+show();
 console.log(myName); // myName
 
-
-function exForWithVar(){
-  // var index - se aplica hosting 
-  console.log(index) // undefined
+function exForWithVar() {
+  // var index - se aplica hosting
+  console.log(index); // undefined
   index = 10;
   for (var index = 0; index <= 5; index++) {
-    console.log(index)    
+    console.log(index);
   }
 
-  console.log(index) // 6
+  console.log(index); // 6
 }
 
-function exForWithLet(){
-  // let index - nu are hosting 
-  console.log(index) // Uncaught ReferenceError: index is not defined
+function exForWithLet() {
+  // let index - nu are hosting
+  console.log(index); // Uncaught ReferenceError: index is not defined
   for (let index = 0; index <= 5; index++) {
-    console.log(index)    
+    console.log(index);
     // index are scopul doar in for
     // const array = [1,2,3]
-
   }
 
-  console.log(index) // Uncaught ReferenceError: index is not defined
+  console.log(index); // Uncaught ReferenceError: index is not defined
 }
 
 // let vs const
@@ -51,9 +51,8 @@ let age = 10;
 const age2 = 10;
 
 age = 12;
-age2 = 13 // nu putem face reatribuire Uncaught TypeError: Assignment to constant variable.
+age2 = 13; // nu putem face reatribuire Uncaught TypeError: Assignment to constant variable.
 
+const array = [1, 2, 3]; // nu poti schimba referinta
 
-const array = [1,2,3]; // nu poti schimba referinta
-
-array = [] // Uncaught TypeError: Assignment to constant variable.
+array = []; // Uncaught TypeError: Assignment to constant variable.
